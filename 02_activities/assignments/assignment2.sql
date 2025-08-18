@@ -1,6 +1,4 @@
 /* ASSIGNMENT 2 */
-/* SECTION 2 */
-
 
 /* SECTION 1 */
 The store wants to keep customer addresses. Propose two architectures for the CUSTOMER_ADDRESS 
@@ -31,6 +29,8 @@ CREATE TABLE CUSTOMER_ADDRESS_HISTORY (
     is_current BOOLEAN,
     PRIMARY KEY (customer_id, effective_date)
 );
+
+/* SECTION 2 */
 
 -- COALESCE
 /* 1. Our favourite manager wants a detailed long list of products, but is afraid of tables! 
